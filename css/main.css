@@ -296,10 +296,10 @@ h5, h6          { font-weight: bolder }
 
 /*  Home/portfolio  */
 .main .work{
-    display: block;
-    width: 33.33333333333333%;
+    display: inline-block;
+    width: 33%;
     height: auto;
-    float: left;
+    /* float: left; - i have changed this */
     position: relative;
     overflow: hidden;
 }
